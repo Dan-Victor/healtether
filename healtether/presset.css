@@ -1,0 +1,535 @@
+body{
+   margin: 0 auto ;
+   box-sizing: border-box;
+   padding: 0;
+   font-family: 'Urbanist',sans-serif;
+}
+
+*{
+    font-family: 'Urbanist',sans-serif;
+}
+
+.asm{
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    width: auto;
+    height: auto;
+   
+}
+
+aside{
+    width: 18.5%;
+    height: 1089px;
+    border-right: 1px solid #D9D9D9;
+    position: fixed;
+    left: 0;
+
+}
+
+.blogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.logo{
+    margin: 0 auto;
+}
+
+.sa{
+    padding: 12px 16px;
+    background-color:#198E79;
+    border-radius: 8px;
+    color:#fff;
+    border: none;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23.12px;
+    margin: 12px auto;
+   
+}
+ aside ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-top: 24px;
+    list-style: none;
+    gap: 30px;
+   padding: 0;
+    
+}
+
+aside ul li{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 14px;
+    font-size: 17px;
+font-weight: 500;
+line-height: 23.12px;
+padding-left: 25px;
+
+}
+
+
+ aside ul li:hover{
+    border-right: 3px solid #110C2C;
+    background-color: #F5F5F5;
+    height: 44px;
+    cursor: pointer;
+}
+
+header{
+    position: fixed;
+   
+    width: auto;
+    height: 80px;
+    
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-bottom: 1px solid #F5F4FB;
+    background-color: #ffff;
+}
+.hm{
+   margin-left: 22%;
+   width: auto;
+  overflow: hidden;
+  height: 1200px;
+
+}
+
+.inp-cont{
+    position: relative;
+    display: flex;
+}
+
+.inp {
+    width: 588px;
+    height: 48px;
+    padding-left: 40px;
+    background-color: #F7F7F7;
+    border: none;
+  font-size: 18px;
+font-weight: 300;
+color: #ACACAC;
+}
+
+.sf{
+position: absolute;
+    left: 12px;
+    top:12px;
+}
+.prof{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 12px;
+    height: auto;
+    margin-left: 315px;
+}
+
+.hous{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 60px;
+    height:85px;
+    border-bottom: 1px solid #F5F4FB;
+    position: fixed;
+    background-color: #ffff;
+   
+}
+.ref{
+    margin-left: 850px;
+}
+
+.sds{
+    display: flex;
+    gap: 24px;
+    height:168px;
+    justify-content: left;
+    align-items: center;
+}
+
+.sec-cont{
+   padding-top: 170px;
+    display: flex;
+    gap: 60px;
+}
+.sduli{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+   
+    width: 461px;
+}
+
+.mm{
+    object-fit:none;
+}
+.pr-cont p{
+   width: 101px;
+   height: 33px;
+    background-color: #FADF49;
+    
+    border-radius: 8px;
+   font-size: 14px;
+font-weight: 500;
+line-height: 17.36px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.pr-cont h1{
+font-size: 24px;
+font-weight: 600;
+line-height: 28.8px;
+
+}
+
+.pr-cont button:nth-of-type(1){
+    width: 48px;
+    height: 33px;
+    border-radius: 7px ;
+    border: none;
+    background-color: #198E79;
+    color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+   line-height: 17.36px;
+
+
+}
+
+.pr-cont button:nth-of-type(1):hover{
+    cursor: pointer;
+    background-color: #177d6a
+}
+
+.pr-cont button:nth-of-type(2){
+    width:59px;
+height:33px;
+border-radius: 7px;
+background-color: #F5F5F5;
+color: #000;
+border: none;
+font-size: 14px;
+font-weight: 500;
+line-height: 17.36px;
+
+}
+
+.pr-cont button:nth-of-type(2):hover{
+    cursor: pointer;
+    background-color: #e6e3e3
+}
+
+.ulli ul{
+list-style: none;
+padding-left: 0;
+display: flex;
+flex-direction: column;
+gap: 10px;
+ margin-top: 24px;
+}
+
+.ulli ul li{
+    width: 461px;
+    height: 60px;
+    background-color: #F5F5F5;
+    display: flex;
+    padding-left: 16px;
+    align-items: center;
+   font-size: 20px;
+font-weight: 500;
+line-height: 27.2px;
+
+}
+
+.ulli ul li:hover{
+    background-color: #EBEBEB;
+    cursor: pointer;
+}
+
+.for-ti p:nth-of-type(1){
+    font-family: 'Montserrat',sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22.5px;
+    letter-spacing: 0.01em;
+    padding-top: 50px;
+}
+
+.for-ti h1:nth-of-type(1){
+    font-family: 'Montserrat',sans-serif;
+font-size: 18px;
+font-weight: 600;
+line-height: 22.5px;
+letter-spacing: 0.01em;
+display: flex;
+justify-content:left;
+align-items: center;
+gap: 320px;
+}
+
+
+.for-ti p:nth-of-type(2){
+    font-family: 'Poppins',sans-serif;
+   color: #777777;
+   font-size: 14px;
+font-weight: 400;
+line-height: 17.5px;
+letter-spacing: 0.01em;
+  
+}
+
+.for-ti h1:nth-of-type(2){
+  
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22.5px;
+    letter-spacing: 0.01em;
+    
+}
+
+.for-ti p:nth-of-type(3){
+    font-family: "Poppins",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.2px;
+    letter-spacing: 0.01em;
+    color: #777777;
+    
+}
+
+.for-ti p:nth-of-type(4){
+    font-family: "Poppins",sans-serif;
+       font-size: 14px;
+    font-weight: 400;
+    line-height: 18.2px;
+    letter-spacing: 0.01em;
+   color: #1227E3;
+}
+
+.for-ti p:nth-of-type(4) a{
+    color: #1227E3; 
+    text-decoration: none; 
+    font-family: "Poppins",sans-serif;
+    font-size: 14px;
+ font-weight: 400;
+ cursor: pointer;
+}
+
+.for-item{
+    display: flex;
+    flex-wrap: wrap;
+   gap: 25px;
+   padding-top: 170px;
+   height: 100vh;
+}
+
+.ttin{
+   width: 530px
+}
+
+.settings{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+   
+}
+
+
+.press{
+    width: 533px;
+height: 844px;
+background-color: #F5F5F5;
+
+display: flex;
+flex-direction: column;
+justify-content: start;
+align-items: center;
+}
+.press p{
+    margin-left: -300px;
+    font-family: "Poppins",sans-serif;
+font-size: 14px;
+font-weight: 500;
+line-height: 18.2px;
+letter-spacing: 0.01em;
+color:#A1A1A1;
+}
+
+.lab {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.set-cont{
+    overflow-y: scroll;
+    height: 900px;
+    margin-top: -15px;
+    border-top: 1px solid #000;
+}
+
+.pc{
+    font-family: 'Montserrat', sans-serif;
+font-size: 18px;
+font-weight: 600;
+line-height: 22.5px;
+letter-spacing: 0.01em;
+
+}
+
+.fitc{
+    font-family: 'Poppins',sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 18.2px;
+letter-spacing: 0.01em;
+color:#A1A1A1;
+}
+
+.hi{
+    font-family: 'Poppins',serif;
+font-size: 14px;
+font-weight: 700;
+line-height: 18.2px;
+letter-spacing: 0.01em;
+color:#777777;
+}
+
+.acl{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 220px;
+font-size: 17px;
+font-weight: 500;
+line-height: 22.78px;
+
+}
+
+.lab{
+  
+font-size: 17px;
+font-weight: 600;
+line-height: 23.12px;
+color:#868686;
+}
+
+.lab input{
+    width:481px;
+height:54px;
+background-color: #FAFAFA;
+border: none;
+margin-top: 4px;
+margin-bottom: 12px;
+padding: 16px;
+}
+
+.lab input::placeholder{
+   
+    font-size: 16px;
+    font-weight: 400;
+   color:#ACACAC;
+   padding: 16px;
+}
+
+.ni , .tes{
+    padding-top: 10px;
+}
+
+.b-i{
+    font-family: 'Poppins',sans-serif;
+font-size: 14px;
+font-weight: 700;
+line-height: 18.2px;
+color:#777777;
+}
+
+.afd{
+    font-family: 'Poppins',sans-serif;
+font-size: 14px;
+font-weight: 700;
+line-height: 18.2px;
+
+}
+
+
+.for-pid{
+    display: flex;
+    flex-direction: column;
+  font-size: 14px;
+font-weight: 400;
+line-height: 16.8px;
+justify-content: start;
+align-items: start;
+gap: 14px;
+border-bottom: 1px solid #000000;
+}
+
+.for-pid label{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+   
+}
+
+
+
+ /* Remove the default appearance of the checkbox */
+ input[type="checkbox"] {
+    -webkit-appearance: none; /* For Safari */
+    -moz-appearance: none;    /* For Firefox */
+    appearance: none;         /* Standard */
+    width: 20px;
+    height: 20px;
+    border:2px solid#F1F1F1; /* Box border */
+    border-radius: 3px;      /* Optional: rounded corners */
+    background-color: transparent; /* Transparent background */
+    position: relative;       /* For ::after positioning */
+    cursor: pointer;
+  }
+
+  /* Style the tick when checked */
+  input[type="checkbox"]:checked::after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 6px;
+    width: 3px;
+    height: 8px;
+    border: solid black; /* Tick color */
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg); /* Create the tick mark */
+  }
+
+
+  .sub{
+    padding: 19px 47px;
+    color: #CACACA;
+    background-color: #F7F7F7;
+    border-radius: 7px;
+    border: none;
+font-size: 17px;
+font-weight: 600;
+ 
+  }
+
+  .btn{
+    margin: 50px auto;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+  }
